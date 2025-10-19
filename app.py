@@ -14,7 +14,7 @@ This application uses a Markov Chain to generate new text based on a corpus of i
 
 # --- 1. Corpus Setup (from exercises.ipynb) ---
 @st.cache_data
-def load_and_clean_corpus():
+def load_and_clean_corpus(): 
     """Fetches and cleans the text corpus for the Markov generator."""
     url = 'https://raw.githubusercontent.com/leontoddjohnson/datasets/main/text/inspiration_quotes.txt'
     content = requests.get(url)
